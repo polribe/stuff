@@ -1,0 +1,713 @@
+body {
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+	color:white;
+	font-family: 'Lobster', cursive;
+	}
+.header{
+	color: black;
+	text-align:left;
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+	border: 5px solid #81FFD5;
+	font-family: 'Lobster', cursive;
+	}
+
+.headeright{
+	margin-left: 175px;
+	color: black;
+}
+
+.menu{
+	display:block;
+	padding-right: 20px;
+	list-style-type: square;
+	}
+
+.main{
+	margin:0px;
+	color: black;
+	display: inline-flex;
+	align-items: stretch;
+	width: 100%;
+	}
+
+.primera{
+	margin:0px;
+	flex-grow: 2;
+	border: 4px solid #81FFD5;
+	width: 20%;
+	background-color:white;
+	}
+
+.segona{
+	margin:0px;
+	flex-grow: 5;
+	border: 4px solid #81FFD5;
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	}	
+
+.tercera{
+	margin:0px;
+	flex-grow: 1;
+	border: 4px solid #81FFD5;
+	width: 20%;
+	background-color:white;
+	}
+
+.dreta{
+	margin-left: 10px;	
+	float:left;
+	width: 150px;
+	height: 100px;
+}
+
+.right{
+	margin-left: 175px;
+	color: black;
+}
+
+.esquerra{
+	margin-right: 10px;
+	margin-left:175px;
+	float: right;
+	width:150px;
+	height:100px;
+}
+
+.left{
+	margin-right:175px;
+	margin-left: 10px;
+	color:black;
+	text-shadow: 2px 2px #dc9fff;
+}
+
+.form-group{
+	display: inline;
+}
+
+.btn_btn-detault{
+	display: inline;
+}
+
+.footer{
+	color:black;
+	border:4px solid #81FFD5;
+	background-color: white
+	}
+
+
+nav ul li a{
+    color:#81FFD5;
+    font-family: 'Lobster', cursive;
+    text-decoration:none;
+    border:2px solid #81FFD5;
+    background-color:#dc9fff ;
+    display:block;
+    padding:.5em;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+ul{
+	padding-inline-start: 0px;
+	height: 287px;
+}
+
+li{
+	list-style-type: none;
+	margin: 0 0.6em;	
+}
+
+
+a{
+	text-decoration: none; 
+}
+
+a:hover{
+	color:#81FFD5;
+	text-shadow: 2px 2px black;
+}
+
+.tercera__nav{
+	padding-left: 15px;
+}
+
+.sponsor{
+	display: inline-flex;
+	flex-wrap: wrap;
+	width:75px;
+	height:50px;
+}
+
+.columnes{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.titol{
+	margin-left: 10px;
+	text-shadow: 2px 2px #dc9fff;
+}
+
+#progressbar {
+  background-color: #dc9fff;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 30%;
+  margin-bottom: 10px;
+  margin-left:10px;
+}
+
+#progressbar>div {
+  background-color: #81FFD5;
+  width: 40%;
+  /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 10px;
+  padding-left:10px;`
+}
+
+#progressbar2 {
+  background-color: #dc9fff;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 30%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#progressbar2>div {
+  background-color: #81FFD5;
+  width: 60%;
+  /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 10px;
+  padding-left:10px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-bottom:10px;
+  margin-left: 10px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-bottom:10px;
+  margin-left: 10px;
+}
+
+.fa-instagram {
+  background: purple;
+  color: white;
+  margin-bottom:10px;
+  margin-left: 10px;
+}
+	
+@media only screen and (max-width: 576px){
+	webkit-box-sizing: border-box;
+	moz-box-sizing: border-box;
+	box-sizing: border-box;*/
+	font-family: Calibri, sans-serif;
+	font-weight: normal;
+	color: #727272;
+
+.header{
+	color: black;
+	text-align:left;
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+	border: 5px solid #81FFD5;
+	font-family: 'Lobster', cursive;
+	}
+
+.headeright{
+	margin-left: 175px;
+	color: black;
+}
+
+.menu{
+	display:inline-block;
+	padding-right: 20px;
+	list-style-type: square;
+	}
+
+.main{
+	margin:0px;
+	color: black;
+	display: block;
+	align-items: stretch;
+	width: 100%;
+	}
+
+.primera{
+	margin:0px;
+	display: block;
+	border: 4px solid #81FFD5;
+	width: 100%;
+	background-color:white;
+	}
+
+.segona{
+	margin:0px;
+	border: 4px solid #81FFD5;
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	}	
+
+.tercera{
+	margin:0px;
+	display: block;
+	border: 4px solid #81FFD5;
+	width: 100%;
+	background-color:white;
+	}
+
+
+
+.right{
+	margin-left: 175px;
+	color: black;
+	display: block;
+}
+
+.esquerra{
+	margin-right: 10px;
+	margin-left:175px;
+	float: right;
+	width:150px;
+	height:100px;
+}
+
+.dreta{
+	display: inline;
+	margin-left: 10px;	
+	float:left;
+	width: 150px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.columnes{
+	display:block;
+	-webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+
+.form-group{
+	display: inline;
+}
+
+.btn_btn-detault{
+	display: inline;
+}
+
+.footer{
+	color:black;
+	border:4px solid #81FFD5;
+	background-color: white
+	}
+
+
+nav ul li a{
+    color:#81FFD5;
+    font-family: 'Lobster', cursive;
+    text-decoration:none;
+    border:2px solid #81FFD5;
+    background-color:#dc9fff ;
+    display:inline-flex;
+    padding:.5em;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+ul{
+	display: inline;
+	padding-inline-start: 0px;
+	height: 287px;
+}
+
+li{
+	display: inline;
+	list-style-type: none;
+	margin: 0 0.6em;	
+}
+
+
+a{
+	display: inline;
+	text-decoration: none; 
+}
+
+a:hover{
+	color:#81FFD5;
+	text-shadow: 2px 2px black;
+}
+
+.tercera__nav{
+	padding-left: 15px;
+}
+
+.sponsor{
+	display: inline-flex;
+	flex-wrap: wrap;
+	width:75px;
+	height:50px;
+}
+
+
+.titol{
+	margin-left: 10px;
+	text-shadow: 2px 2px #dc9fff;
+}
+
+#progressbar {
+  background-color: #dc9fff;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left:10px;
+}
+
+#progressbar>div {
+  background-color: #81FFD5;
+  width: 40%;
+  /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 10px;
+  padding-left:10px;`
+}
+
+#progressbar2 {
+  background-color: #dc9fff;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#progressbar2>div {
+  background-color: #81FFD5;
+  width: 60%;
+  /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 10px;
+  padding-left:10px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-bottom:10px;
+  margin-left: 10px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-bottom:10px;
+  margin-left: 10px;
+}
+
+.fa-instagram {
+  background: purple;
+  color: white;
+  margin-bottom:10px;
+  margin-left: 10px;
+}
+}
+
+@media only screen and (max-width: 992px){
+	webkit-box-sizing: border-box;
+	moz-box-sizing: border-box;
+	box-sizing: border-box;*/
+	font-family: Calibri, sans-serif;
+	font-weight: normal;
+	color: #727272;
+
+.header{
+	color: black;
+	text-align:left;
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+	border: 5px solid #81FFD5;
+	font-family: 'Lobster', cursive;
+	}
+
+.headeright{
+	margin-left: 175px;
+	color: black;
+}
+
+.menu{
+	display:inline-block;
+	padding-right: 20px;
+	list-style-type: square;
+	}
+
+.main{
+	margin:0px;
+	color: black;
+	display: block;
+	align-items: stretch;
+	width: 100%;
+	}
+
+.primera{
+	margin:0px;
+	display: block;
+	border: 4px solid #81FFD5;
+	width: 100%;
+	background-color:white;
+	}
+
+.segona{
+	margin:0px;
+	border: 4px solid #81FFD5;
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display:block;
+	}	
+
+.tercera{
+	margin:0px;
+	display: block;
+	border: 4px solid #81FFD5;
+	width: 100%;
+	background-color:white;
+	}
+
+
+.right{
+	margin-left: 175px;
+	color: black;
+	display: block;
+}
+
+.esquerra{
+	margin-right: 10px;
+	margin-left:175px;
+	float: right;
+	width:150px;
+	height:100px;
+}
+
+.dreta{
+	display: inline;
+	margin-left: 10px;	
+	float:left;
+	width: 150px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.columnes{
+	display:block;
+	-webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+
+.form-group{
+	display: inline;
+}
+
+.btn_btn-detault{
+	display: inline;
+}
+
+.footer{
+	color:black;
+	border:4px solid #81FFD5;
+	background-color: white
+	}
+
+
+nav ul li a{
+    color:#81FFD5;
+    font-family: 'Lobster', cursive;
+    text-decoration:none;
+    border:2px solid #81FFD5;
+    background-color:#dc9fff ;
+    display:inline-flex;
+    padding:.5em;
+    margin-bottom: 5px;
+    text-align: center; 
+}
+
+ul{
+	display: inline;
+	padding-inline-start: 0px;
+	height: 287px;
+	text-align: center;
+}
+
+li{
+	display: inline;
+	text-align: center;
+	list-style-type: none;
+	margin: 0 0.6em;	
+}
+
+
+a{
+	display: inline-flex;
+	text-anchor: center;
+	text-decoration: none; 
+	width:100px;
+}
+
+a:hover{
+	color:#81FFD5;
+	text-shadow: 2px 2px black;
+}
+
+.tercera__nav{
+	padding-left: 15px;
+}
+
+.sponsor{
+	display: inline-flex;
+	flex-wrap: wrap;
+	width:75px;
+	height:50px;
+}
+
+
+.titol{
+	margin-left: 10px;
+	text-shadow: 2px 2px #dc9fff;
+}
+
+#progressbar {
+  background-color: #dc9fff;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left:10px;
+}
+
+#progressbar>div {
+  background-color: #81FFD5;
+  width: 40%;
+  /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 10px;
+  padding-left:10px;`
+}
+
+#progressbar2 {
+  background-color: #dc9fff;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#progressbar2>div {
+  background-color: #81FFD5;
+  width: 60%;
+  /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 10px;
+  padding-left:10px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-bottom:10px;
+  margin-left: 10px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-bottom:10px;
+  margin-left: 10px;
+}
+
+.fa-instagram {
+  background: purple;
+  color: white;
+  margin-bottom:10px;
+  margin-left: 10px;
+}
+}
+
